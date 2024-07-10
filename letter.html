@@ -1,0 +1,32 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Happy Birthday</title>
+    <link rel="stylesheet" href="styleL.css">
+</head>
+<body>
+    <div class="container">
+        <div class="envelope-wrapper">
+            <div class="envelope">
+                <div class="letter">
+                    <div class="text">
+                        <strong>HAPPY BIRTHDAY MY BABY!!</strong>
+                        <p>HAPPIEST 21ST BIRTHDAY TO MY EVERYTHING. THE SPARKLE OF MY LIFE. MY BLESSING.MY RAY OF SUNSHINE.MY FAVORITE PERSON.MY MOON AND STARS.MY TREASURE. MY HAPPY PLACE.MY HEART AND SOUL.MY LAUGHTER.MY BESTFRIEND.MY HUBBY!<br>
+                               </p>
+                    </div>
+                </div>
+            </div>
+            <div class="heart"></div>
+        </div>
+    </div>
+    <script>
+        const envelope = document.querySelector('.envelope-wrapper');
+        envelope.addEventListener('click', () => {
+            envelope.classList.toggle('flap');
+
+        });
+    </script>
+</body>
+</html>
